@@ -10,6 +10,7 @@ function App() {
   return (
     <motion.div layout className='Header'>
       <motion.h1 onClick={handleClick}>ReactCalc</motion.h1>
+      <motion.h3>Simplify Math, Swift and Snappy!</motion.h3>
       {show && (
         <motion.div>
           <Calculator />
